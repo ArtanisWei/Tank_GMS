@@ -1,8 +1,14 @@
 {
   "resources": [
+    {"id":{"name":"spr_bullet_N","path":"sprites/spr_bullet_N/spr_bullet_N.yy",},"order":0,},
     {"id":{"name":"Obj_faction","path":"objects/Obj_faction/Obj_faction.yy",},"order":2,},
+    {"id":{"name":"Obj_Home","path":"objects/Obj_Home/Obj_Home.yy",},"order":1,},
+    {"id":{"name":"Obj_CrystalWall","path":"objects/Obj_CrystalWall/Obj_CrystalWall.yy",},"order":1,},
     {"id":{"name":"Obj_game","path":"objects/Obj_game/Obj_game.yy",},"order":0,},
+    {"id":{"name":"Obj_Bullet","path":"objects/Obj_Bullet/Obj_Bullet.yy",},"order":0,},
+    {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},"order":0,},
     {"id":{"name":"Obj_entity","path":"objects/Obj_entity/Obj_entity.yy",},"order":1,},
+    {"id":{"name":"Obj_BrickWall","path":"objects/Obj_BrickWall/Obj_BrickWall.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -36,6 +42,11 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Ally.yy","order":3,"resourceVersion":"1.0","name":"Ally","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Neutral.yy","order":4,"resourceVersion":"1.0","name":"Neutral","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Enemy.yy","order":5,"resourceVersion":"1.0","name":"Enemy","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Bullet.yy","order":6,"resourceVersion":"1.0","name":"Bullet","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Bullet.yy","order":1,"resourceVersion":"1.0","name":"Bullet","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
