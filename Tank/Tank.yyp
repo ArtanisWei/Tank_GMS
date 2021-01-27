@@ -2,7 +2,7 @@
   "resources": [
     {"id":{"name":"spr_bullet_N","path":"sprites/spr_bullet_N/spr_bullet_N.yy",},"order":0,},
     {"id":{"name":"Obj_faction","path":"objects/Obj_faction/Obj_faction.yy",},"order":2,},
-    {"id":{"name":"Obj_Home","path":"objects/Obj_Home/Obj_Home.yy",},"order":1,},
+    {"id":{"name":"Obj_home","path":"objects/Obj_home/Obj_home.yy",},"order":1,},
     {"id":{"name":"Obj_CrystalWall","path":"objects/Obj_CrystalWall/Obj_CrystalWall.yy",},"order":1,},
     {"id":{"name":"Obj_game","path":"objects/Obj_game/Obj_game.yy",},"order":0,},
     {"id":{"name":"Obj_Bullet","path":"objects/Obj_Bullet/Obj_Bullet.yy",},"order":0,},

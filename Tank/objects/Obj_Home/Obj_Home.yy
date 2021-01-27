@@ -25,7 +25,7 @@
     "path": "folders/Objects/Ally.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Home",
+  "name": "Obj_home",
   "tags": [],
   "resourceType": "GMObject",
 }
