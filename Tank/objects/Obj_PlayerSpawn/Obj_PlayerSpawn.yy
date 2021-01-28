@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_brickWall",
-    "path": "sprites/spr_brickWall/spr_brickWall.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Obj_faction",
-    "path": "objects/Obj_faction/Obj_faction.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,17 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_brickWall","path":"objects/Obj_brickWall/Obj_brickWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Neutral",
-    "path": "folders/Objects/Neutral.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_brickWall",
+  "name": "Obj_PlayerSpawn",
   "tags": [],
   "resourceType": "GMObject",
 }

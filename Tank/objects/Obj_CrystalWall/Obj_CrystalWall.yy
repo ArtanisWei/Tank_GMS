@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_crystalWall",
+    "path": "sprites/spr_crystalWall/spr_crystalWall.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "Obj_faction",
+    "path": "objects/Obj_faction/Obj_faction.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -17,7 +23,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_crystalWall","path":"objects/Obj_crystalWall/Obj_crystalWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"parent":{"name":"Obj_crystalWall","path":"objects/Obj_crystalWall/Obj_crystalWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -25,7 +34,7 @@
     "path": "folders/Objects/Neutral.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_CrystalWall",
+  "name": "Obj_crystalWall",
   "tags": [],
   "resourceType": "GMObject",
 }

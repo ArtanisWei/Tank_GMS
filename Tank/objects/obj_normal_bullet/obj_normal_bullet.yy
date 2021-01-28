@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_brickWall",
-    "path": "sprites/spr_brickWall/spr_brickWall.yy",
+    "name": "spr_normal_bullet",
+    "path": "sprites/spr_normal_bullet/spr_normal_bullet.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Obj_faction",
-    "path": "objects/Obj_faction/Obj_faction.yy",
+    "name": "Obj_Bullet",
+    "path": "objects/Obj_Bullet/Obj_Bullet.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_brickWall","path":"objects/Obj_brickWall/Obj_brickWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Neutral",
-    "path": "folders/Objects/Neutral.yy",
+    "name": "Bullet",
+    "path": "folders/Objects/Bullet.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_brickWall",
+  "name": "obj_normal_bullet",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -6,3 +6,11 @@ enum FACTION{
 	neutral,
 	enemy
 }
+
+enum DIRECTION{
+	up,
+	down,
+	left,
+	right,
+	none
+}
