@@ -3,3 +3,4 @@
 
 createrId = 0;
 faction = FACTION.neutral;
+destroyFlag = false;

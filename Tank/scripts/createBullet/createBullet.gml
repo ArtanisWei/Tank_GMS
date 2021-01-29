@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function createBullet(_x, _y, _direction, _creater){
-    uid = instance_create_layer(_x, _y, "Instances", obj_normal_bullet);
+    uid = instance_create_layer(_x, _y, "Instances", Obj_normal_bullet);
 	with (uid){
 		createrId = _creater;
 		speed = 6;

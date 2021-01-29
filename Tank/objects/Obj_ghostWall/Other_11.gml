@@ -1,2 +1,2 @@
-/// @description Before destroy (For HE)
+/// @description This is invincible
 // You can write your code in this editor

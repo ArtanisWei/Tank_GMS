@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_normal_bullet",
-    "path": "sprites/spr_normal_bullet/spr_normal_bullet.yy",
+    "name": "spr_powerUp",
+    "path": "sprites/spr_powerUp/spr_powerUp.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Obj_Bullet",
-    "path": "objects/Obj_Bullet/Obj_Bullet.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bullet",
-    "path": "folders/Objects/Bullet.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_normal_bullet",
+  "name": "Obj_powerUps",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_brickWall",
-    "path": "sprites/spr_brickWall/spr_brickWall.yy",
+    "name": "spr_ghostWall",
+    "path": "sprites/spr_ghostWall/spr_ghostWall.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,8 +24,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_brickWall","path":"objects/Obj_brickWall/Obj_brickWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_brickWall","path":"objects/Obj_brickWall/Obj_brickWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"parent":{"name":"Obj_ghostWall","path":"objects/Obj_ghostWall/Obj_ghostWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"parent":{"name":"Obj_ghostWall","path":"objects/Obj_ghostWall/Obj_ghostWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +34,7 @@
     "path": "folders/Objects/Neutral.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_brickWall",
+  "name": "Obj_ghostWall",
   "tags": [],
   "resourceType": "GMObject",
 }
