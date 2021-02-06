@@ -14,3 +14,14 @@ enum DIRECTION{
 	right,
 	none
 }
+
+enum POWERUP{
+	speedup,
+	fireup,
+	hpup,
+	star,
+	ammo_he,
+	ammo_fire,
+	ammo_mine,
+	count
+}

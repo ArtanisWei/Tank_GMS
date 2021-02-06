@@ -21,9 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_powerUps","path":"objects/Obj_powerUps/Obj_powerUps.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_powerUps","path":"objects/Obj_powerUps/Obj_powerUps.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":17,"eventType":7,"collisionObjectId":null,"parent":{"name":"Obj_powerUps","path":"objects/Obj_powerUps/Obj_powerUps.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_pickPowerUp","path":"objects/Obj_pickPowerUp/Obj_pickPowerUp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_pickPowerUp","path":"objects/Obj_pickPowerUp/Obj_pickPowerUp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,7 +31,7 @@
     "path": "folders/Objects/PowerUps.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_powerUps",
+  "name": "Obj_pickPowerUp",
   "tags": [],
   "resourceType": "GMObject",
 }
