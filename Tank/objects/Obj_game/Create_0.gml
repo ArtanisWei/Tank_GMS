@@ -25,3 +25,13 @@ enum POWERUP{
 	ammo_mine,
 	count
 }
+
+enum UI{
+	speedrate,
+	firerate,
+	hitpoints,
+	ammo_he,
+	ammo_fire,
+	ammo_mine,
+	NULL
+}

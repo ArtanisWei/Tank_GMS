@@ -7,22 +7,23 @@ if (cooldown > 0){
 
 var px = 0, py = 0;
 
+moveSpeed = (speedLevel + 4.5) / 3;
 if (moveDirection != DIRECTION.none){
 	switch (moveDirection){
 		case (DIRECTION.up):
 		    px = 0;
-			py =-min(speedLevel, movePixL);
+			py =-min(moveSpeed, movePixL);
 		    break;
 		case (DIRECTION.left):
-		    px =-min(speedLevel, movePixL);
+		    px =-min(moveSpeed, movePixL);
 			py = 0;
 			break;
 		case (DIRECTION.down):
 		    px = 0;
-			py = min(speedLevel, movePixL);
+			py = min(moveSpeed, movePixL);
 			break;
 		case (DIRECTION.right):
-		    px = min(speedLevel, movePixL);
+		    px = min(moveSpeed, movePixL);
 			py = 0;
 			break
 	}
@@ -37,6 +38,6 @@ if (place_meeting(x+px, y+py, Obj_faction)){
 
 x += px;
 y += py;
-movePixL -= speedLevel;
+movePixL -= moveSpeed;
 if (movePixL < 0)
     movePixL = 0;

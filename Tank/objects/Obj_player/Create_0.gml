@@ -7,11 +7,14 @@ event_inherited();
 faction = FACTION.ally;
 hitpoints = 4;
 
-fireLevel = 3
-speedLevel = 3
+fireLevel = 2
+speedLevel = 2
 cooldown = 0
 
 moveDirection = DIRECTION.up
 headDirection = DIRECTION.up
 movePixC = 0
 movePixL = 0
+
+speAmmo = UI.ammo_he;
+speAmmoCount = 0;
